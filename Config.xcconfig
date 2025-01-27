@@ -1,0 +1,8 @@
+//
+//  Config.xcconfig
+//  WeatherApp
+//
+//  Created by Jack Vo on 1/26/25.
+//
+
+WEATHER_API_KEY=12f4b8e731a086a45595820f91ac8642
