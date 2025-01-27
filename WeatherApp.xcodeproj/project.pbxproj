@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6495771A2D46EE4F005125C0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 649577192D46EE47005125C0 /* .gitignore */; };
+		649577622D473073005125C0 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 649577612D47306B005125C0 /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		649576B72D46DF17005125C0 /* WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649576C12D46DF17005125C0 /* WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649577192D46EE47005125C0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		649577612D47306B005125C0 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -44,12 +46,6 @@
 				"Preview Content/ModelData.swift",
 				"Preview Content/Preview Assets.xcassets",
 				"Preview Content/weatherData.json",
-				WeatherApp/Managers/LocationManager.swift,
-				WeatherApp/Managers/WeatherManager.swift,
-				WeatherApp/Views/ContentView.swift,
-				WeatherApp/Views/LoadingView.swift,
-				WeatherApp/Views/WeatherView.swift,
-				WeatherApp/Views/WelcomeView.swift,
 				WeatherAppApp.swift,
 			);
 			target = 649576A62D46DF16005125C0 /* WeatherApp */;
@@ -118,6 +114,7 @@
 		6495769E2D46DF16005125C0 = {
 			isa = PBXGroup;
 			children = (
+				649577612D47306B005125C0 /* Config.xcconfig */,
 				649577192D46EE47005125C0 /* .gitignore */,
 				649576E62D46DFD0005125C0 /* WeatherApp */,
 				649576BA2D46DF17005125C0 /* WeatherAppTests */,
@@ -268,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649577622D473073005125C0 /* Config.xcconfig in Resources */,
 				6495771A2D46EE4F005125C0 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
